@@ -89,6 +89,39 @@ body {
     
 }
 
+.best-sellers {
+    height:700px
+}
+
+
+.content-header {
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+    height:60px;
+    font-size:30px;
+    margin-top:60px
+}
+
+
+.pie-flavors {
+    list-style-type:none;
+    display:flex;
+    flex-direction:row;
+    gap:60px;
+    justify-content:center;
+    margin-top:30px
+
+}
+
+.piee {
+    border:solid 6px #ff93ac;
+    border-radius:6px
+}
+
 button {
     background-color:#ff93ac;
     color:black;
